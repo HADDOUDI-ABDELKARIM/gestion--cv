@@ -174,10 +174,14 @@
           "title": "Frontend Developer",
           "description": "Looking for an experienced frontend developer with knowledge in Angular.",
           "skills": [
-            "JavaScript",
-            "Angular",
-            "HTML",
-            "CSS"
+            {
+              "name": "JavaScript"},
+            {
+              "name": "Angular"},
+            {
+              "name": "HTML"},
+            {
+              "name": "CSS"}
           ],
           "location": "San Francisco, CA"
         },
@@ -352,10 +356,14 @@
       "title": "Frontend Developer",
       "description": "Looking for an experienced frontend developer with knowledge in Angular.",
       "skills": [
-        "JavaScript",
-        "Angular",
-        "HTML",
-        "CSS"
+        {
+          "name": "JavaScript"},
+        {
+          "name": "Angular"},
+        {
+          "name":  "HTML"},
+        {
+          "name": "CSS"}
       ],
       "location": "San Francisco, CA",
       "companyId": 1
@@ -365,9 +373,12 @@
       "title": "Backend Developer",
       "description": "Seeking a backend developer proficient in Node.js and MongoDB.",
       "skills": [
-        "Node.js",
-        "MongoDB",
-        "Express"
+        {
+          "name": "Node.js"},
+        {
+          "name": "MongoDB"},
+        {
+          "name": "Express"}
       ],
       "location": "Remote",
       "companyId": 1
@@ -377,9 +388,12 @@
       "title": "Data Scientist",
       "description": "Seeking a data scientist with expertise in machine learning and healthcare data.",
       "skills": [
-        "Python",
-        "Machine Learning",
-        "Data Analysis"
+        {
+          "name": "Python"},
+        {
+          "name": "Machine Learning"},
+        {
+          "name": "Data Analysis"}
       ],
       "location": "New York, NY",
       "companyId": 2
@@ -389,9 +403,12 @@
       "title": "Project Manager",
       "description": "Looking for a project manager with experience in healthcare projects.",
       "skills": [
-        "Project Management",
-        "Healthcare",
-        "Agile"
+        {
+          "name": "Project Management"},
+        {
+          "name": "Healthcare"},
+        {
+          "name": "Agile"}
       ],
       "location": "Remote",
       "companyId": 2
@@ -411,7 +428,7 @@
       "country": "United States",
       "city": "New York",
       "summary": "A passionate software engineer with over 5 years of experience in developing scalable web applications. Skilled in JavaScript, React, Node.js, and MongoDB.",
-      "competence": [
+      "skills": [
         {
           "name": "C++",
           "neveau": "debutant"
@@ -512,7 +529,7 @@
       "country": "United States",
       "city": "New York",
       "summary": "A passionate software engineer with over 5 years of experience in developing scalable web applications. Skilled in JavaScript, React, Node.js, and MongoDB.",
-      "compétence": [
+      "skills": [
         {
           "name": "C++",
           "neveau": "debutant"
@@ -613,7 +630,7 @@
       "country": "United States",
       "city": "New York",
       "summary": "A passionate software engineer with over 5 years of experience in developing scalable web applications. Skilled in JavaScript, React, Node.js, and MongoDB.",
-      "competence": [
+      "skills": [
         {
           "name": "C++",
           "neveau": "debutant"
@@ -812,18 +829,6 @@
       "country": "Maroc",
       "city": "TINGHIR",
       "id": "rIbdKbx"
-    },
-    {
-      "id": "pGlIWAY"
-    },
-    {
-      "id": "_0gEzcg"
-    },
-    {
-      "id": "MBSM8tK"
-    },
-    {
-      "id": "7A1zRlc"
     }
   ]
 }

@@ -16,11 +16,13 @@ export class JobListComponent implements OnInit {
   candidateId: string | undefined = '';
   authCandidat: boolean = false;
   isApplicationSubmitted: boolean = false;
+  isAut: boolean=false;
 
   constructor(private apiService: ApiService) {
-    this.candidateId = localStorage.getItem('idCandidate')?.toString();
+    this.candidateId = localStorage.getItem('isAuthenticatedCandidate')?.toString();
     if (localStorage.getItem('isAuthenticatedCandidate') === 'true') {
-      this.authCandidat = true;
+      this.isAut = true;
+      this.authCandidat=true
     }
   }
 

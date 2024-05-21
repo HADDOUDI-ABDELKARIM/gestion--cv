@@ -13,12 +13,18 @@ export class PostulationCandidatComponent implements OnInit {
   candidate?: Candidate;
   listJobs: Job[] = [];
   listApplications: Application[] = [];
+  isAut: boolean=false;
 
   constructor(
     private apiService: ApiService,
     private route: ActivatedRoute,
     private router: Router,
-  ) {}
+  ) {
+    this.candidateId = localStorage.getItem('isAuthenticatedCandidate')?.toString();
+    if (localStorage.getItem('isAuthenticatedCandidate') === 'true') {
+      this.isAut = true;
+    }
+  }
 
   ngOnInit(): void {
     this.candidateId = localStorage.getItem('idCandidate') ?? '';

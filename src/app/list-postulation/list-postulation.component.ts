@@ -15,6 +15,7 @@ export class ListPostulationComponent implements OnInit {
   listApplications: Application[] = [];
   candidatesMap = new Map<number, Candidate>();
   objetctAffiche: { job: Job, candidates: Candidate[] }[] = [];
+  isAut: boolean=false;
 
   constructor(
     private apiService: ApiService,
@@ -23,6 +24,7 @@ export class ListPostulationComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+
     this.companyId = localStorage.getItem('idCompany') ?? '';
     if (this.companyId) {
       this.apiService.getCompany(this.companyId).subscribe(company => {
