@@ -24,6 +24,7 @@ import { PostulationJobComponent } from './postulation-job/postulation-job.compo
 import {ListPostulationComponent} from "./list-postulation/list-postulation.component";
 import {CommonModule} from "@angular/common";
 import {PostulationCandidatComponent} from "./postulation-candidat/postulation-candidat.component";
+import { NavarProfileComponent } from './navar-profile/navar-profile.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import {PostulationCandidatComponent} from "./postulation-candidat/postulation-c
     CompanyNavbarComponent,
     PostulationJobComponent,
     ListPostulationComponent,
-    PostulationCandidatComponent
+    PostulationCandidatComponent,
+    NavarProfileComponent
 
   ],
   imports: [

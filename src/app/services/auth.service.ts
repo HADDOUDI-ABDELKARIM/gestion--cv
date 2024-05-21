@@ -38,7 +38,6 @@ export class AuthService {
             this._isAuthenticatedCandidate = true;
             return true
           } else {
-            console.log("hello2222222222222")
             localStorage.setItem("idCompany",<string>user.companyId?.toString())
             localStorage.setItem("isAuthenticatedCompany","true")
             localStorage.setItem("isAuthenticatedCandidate","false")
@@ -64,6 +63,7 @@ export class AuthService {
     localStorage.setItem("idCandidate",'')
     localStorage.setItem("isAuthenticatedCandidate","false")
     this._isAuthenticatedCandidate = true;
+    this.router.navigate(['/'])
   }
 
 

@@ -35,7 +35,7 @@ const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   {path: 'company/add/Jobs',component:AddJobComponent},
   {path: 'listPostulation',component:ListPostulationComponent},
-  {path:'candidate/postulation',component:PostulationCandidatComponent}
+  {path: 'candidate/postulation',component:PostulationCandidatComponent}
 
 ]
 @NgModule({
