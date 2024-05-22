@@ -58,8 +58,7 @@ export class CompleteProfileComponent {
       };
       console.log(profile)
       this.apiService.completeCandidateProfile(profile,profile.id).subscribe(
-
-        () => this.router.navigate(['/profile', this.candidateId]),
+        () => this.router.navigate(['login']),
         error => this.error = 'Failed to complete profile. Please try again.'
       );
     }

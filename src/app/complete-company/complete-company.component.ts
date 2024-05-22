@@ -44,7 +44,7 @@ export class CompleteCompanyComponent {
       };
       console.log(company)
       this.apiService.completeCompany(company,this.companyId).subscribe(()=>
-        this.router.navigate(['/company',this.companyId]),
+        this.router.navigate(['/login']),
         ()=>this.error="failed to complete company profile please try again"
       );
 

@@ -160,6 +160,45 @@
       "companyId": "ozFyPMD",
       "role": "company",
       "id": "fAsG0eZ"
+    },
+    {
+      "username": "company4",
+      "password": "12345",
+      "role": "candidate",
+      "candidateId": "FX0ZaIb",
+      "id": "rdHVrHo"
+    },
+    {
+      "username": "company4",
+      "password": "12345",
+      "email": "Ahaddoudi74@gmail.com",
+      "companyId": "qWksW4U",
+      "role": "company",
+      "id": "MD5yhMq"
+    },
+    {
+      "username": "company4",
+      "password": "12345",
+      "email": "Ahaddoudi74@gmail.com",
+      "companyId": "089rKuS",
+      "role": "company",
+      "id": "ZeSSscy"
+    },
+    {
+      "username": "company4",
+      "password": "12345",
+      "email": "Ahaddoudi74@gmail.com",
+      "companyId": "pFvae-b",
+      "role": "company",
+      "id": "ix6kkK-"
+    },
+    {
+      "username": "company43",
+      "password": "12345",
+      "email": "Ahaddoudi74@gmail.com",
+      "companyId": "HuC_wlP",
+      "role": "company",
+      "id": "PgWm4Yf"
     }
   ],
   "companies": [
@@ -175,13 +214,17 @@
           "description": "Looking for an experienced frontend developer with knowledge in Angular.",
           "skills": [
             {
-              "name": "JavaScript"},
+              "name": "JavaScript"
+            },
             {
-              "name": "Angular"},
+              "name": "Angular"
+            },
             {
-              "name": "HTML"},
+              "name": "HTML"
+            },
             {
-              "name": "CSS"}
+              "name": "CSS"
+            }
           ],
           "location": "San Francisco, CA"
         },
@@ -190,13 +233,13 @@
           "title": "Backend Developer",
           "description": "Seeking a backend developer proficient in Node.js and MongoDB.",
           "skills": [
-
             {
               "name": "Project Management"
             },
             {
               "name": "Project Management"
-            }, {
+            },
+            {
               "name": "Project Management"
             }
           ],
@@ -217,13 +260,13 @@
           "title": "Data Scientist",
           "description": "Seeking a data scientist with expertise in machine learning and healthcare data.",
           "skills": [
-
             {
               "name": "Project Management"
             },
             {
               "name": "Project Management"
-            }, {
+            },
+            {
               "name": "Project Management"
             }
           ],
@@ -234,13 +277,13 @@
           "title": "Project Manager",
           "description": "Looking for a project manager with experience in healthcare projects.",
           "skills": [
-
             {
               "name": "Project Management"
             },
             {
               "name": "Project Management"
-            }, {
+            },
+            {
               "name": "Project Management"
             }
           ],
@@ -314,6 +357,42 @@
       "phone": "0657147321",
       "linkedin": "google",
       "id": "ozFyPMD"
+    },
+    {
+      "name": "jnqlvk",
+      "description": "k, sldkc s",
+      "location": " k,kdl d",
+      "email": "Ahaddoudi74@gmail.com",
+      "phone": "0767148455",
+      "linkedin": " cqsqcc",
+      "id": "qWksW4U"
+    },
+    {
+      "name": "kcnsdcjs",
+      "description": "k,csk",
+      "location": "cunijskns",
+      "email": "Ahaddoudi74@gmail.com",
+      "phone": "0767148455",
+      "linkedin": "cnjscdcs",
+      "id": "089rKuS"
+    },
+    {
+      "name": "jdcdjc",
+      "description": "kdc,dkc",
+      "location": ",ckd,cd",
+      "email": "Ahaddoudi74@gmail.com",
+      "phone": "0767148455",
+      "linkedin": "ccd",
+      "id": "pFvae-b"
+    },
+    {
+      "name": "ABDELKARIM HADDOUDI",
+      "description": "jknkcs",
+      "location": "k,lkcs",
+      "email": "Ahaddoudi74@gmail.com",
+      "phone": "0767148455",
+      "linkedin": "jncsd",
+      "id": "HuC_wlP"
     }
   ],
   "applications": [
@@ -357,13 +436,17 @@
       "description": "Looking for an experienced frontend developer with knowledge in Angular.",
       "skills": [
         {
-          "name": "JavaScript"},
+          "name": "JavaScript"
+        },
         {
-          "name": "Angular"},
+          "name": "Angular"
+        },
         {
-          "name":  "HTML"},
+          "name": "HTML"
+        },
         {
-          "name": "CSS"}
+          "name": "CSS"
+        }
       ],
       "location": "San Francisco, CA",
       "companyId": 1
@@ -374,11 +457,14 @@
       "description": "Seeking a backend developer proficient in Node.js and MongoDB.",
       "skills": [
         {
-          "name": "Node.js"},
+          "name": "Node.js"
+        },
         {
-          "name": "MongoDB"},
+          "name": "MongoDB"
+        },
         {
-          "name": "Express"}
+          "name": "Express"
+        }
       ],
       "location": "Remote",
       "companyId": 1
@@ -389,11 +475,14 @@
       "description": "Seeking a data scientist with expertise in machine learning and healthcare data.",
       "skills": [
         {
-          "name": "Python"},
+          "name": "Python"
+        },
         {
-          "name": "Machine Learning"},
+          "name": "Machine Learning"
+        },
         {
-          "name": "Data Analysis"}
+          "name": "Data Analysis"
+        }
       ],
       "location": "New York, NY",
       "companyId": 2
@@ -404,11 +493,14 @@
       "description": "Looking for a project manager with experience in healthcare projects.",
       "skills": [
         {
-          "name": "Project Management"},
+          "name": "Project Management"
+        },
         {
-          "name": "Healthcare"},
+          "name": "Healthcare"
+        },
         {
-          "name": "Agile"}
+          "name": "Agile"
+        }
       ],
       "location": "Remote",
       "companyId": 2
@@ -829,6 +921,42 @@
       "country": "Maroc",
       "city": "TINGHIR",
       "id": "rIbdKbx"
+    },
+    {
+      "nom": "HADDOUDI",
+      "prenom": "ABDELKARIM",
+      "github": "jkbschksqc",
+      "linkedin": "cuijkqz",
+      "summary": "hcvbhqbh",
+      "phone": "0767148455",
+      "skills": [
+        {
+          "name": "java"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "agil",
+          "date": "12/10/2022"
+        }
+      ],
+      "experience": [
+        {
+          "title": "hbcdc",
+          "company": " ndcsd",
+          "dates": "12/10/2022",
+          "location": "casablanca",
+          "description": "hbxdbcxsckjd"
+        }
+      ],
+      "hobbies": [],
+      "education": [],
+      "projects": [],
+      "publications": [],
+      "languages": [],
+      "country": "Maroc",
+      "city": "TINGHIR",
+      "id": "FX0ZaIb"
     }
   ]
 }
